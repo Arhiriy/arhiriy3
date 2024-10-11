@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9FFE7"
+    tools:context=".Detailed_recipe">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="274dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Паста с креветками и шпинатом"
+        android:textColor="#28925F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Паста: 300 г спагетти или другой пасты по вкусу * Креветки: 500 г очищенных креветок среднего размера. * Овощи: 1 луковица средних размеров, 2 зубчика чеснока * Шпинат: 200 г свежего шпината * Сливки: 100 мл сливок 20% жирности (можно взять и 10% или 33%) * Белое вино: 100 мл сухого белого вина (по желанию, добавляет пикантности) * Приправы: Соль, свежемолотый черный перец, любимые итальянские травы (базилик, орегано) * Масло: Оливковое масло для обжарки"
+        android:textColor="#3FAC77"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Рецепт:"
+        android:textColor="#72AC3F"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Приготовление:"
+        android:textColor="#72AC3F"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Паста: Отварите спагетти в подсоленной воде до &quot;аль денте&quot; (не совсем мягкой), согласно указаниям на упаковке.  2. Соус:     * Мелко нарежьте лук и чеснок.      * Разогрейте в большой сковороде оливковое масло. Обжарьте лук до мягкости, затем добавьте чеснок и обжаривайте еще 1 минуту.     * Добавьте креветки, обжаривайте 2-3 минуты до покраснения, пока они не станут упругими. Если вы используете вино, добавьте его в сковороду, дайте алкоголю выпариться.     * Добавьте шпинат. Перемешайте и тушите 2-3 минуты, пока шпинат не увянет.     * Влейте сливки. Добавьте соль, перец и любимые итальянские травы по вкусу. Доведите соус до кипения и убавьте огонь, пусть он тихо кипит 1-2 минуты. 3. Соединяем: Слейте спагетти, добавьте их в сковороду с соусом. Перемешайте, чтобы паста равномерно покрылась соусом. 4. Подача: Подавайте пасту с креветками и шпинатом горячей, украшенной свежей зеленью (базиликом, петрушкой)."
+        android:textColor="#3FAC77"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
